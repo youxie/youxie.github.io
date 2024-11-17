@@ -144,9 +144,9 @@ toggleButtons.forEach(button => {
 
         // 根据展开状态更改按钮的文本
         if (textContent.classList.contains('expanded')) {
-            this.textContent = '收起';
+            this.textContent = 'Collapse';
         } else {
-            this.textContent = '展开更多';
+            this.textContent = 'Expand More';
         }
     });
 });
