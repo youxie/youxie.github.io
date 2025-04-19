@@ -1,886 +1,1054 @@
 <!DOCTYPE html>
-
 <html lang="en">
+
 <head>
-<meta charset="utf-8"/>
-<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>You Xie's webpage</title>
-<!--
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>You Xie's webpage</title>
+
+  <!--
     - favicon
   -->
-<link href="./assets/images/logo.ico" rel="shortcut icon" type="image/x-icon"/>
-<!--
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
     - custom css link
   -->
-<link href="./assets/css/style.css" rel="stylesheet"/>
-<!--
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
     - google font link
   -->
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" rel="stylesheet">
 </head>
+
 <body>
-<!--
+
+  <!--
     - #MAIN
   -->
-<main>
-<!--
+
+  <main>
+
+    <!--
       - #SIDEBAR
     -->
-<aside class="sidebar" data-sidebar="">
-<div class="sidebar-info">
-<figure class="avatar-box">
-<img alt="You Xie" src="./assets/images/profile.png" width="80"/>
-</figure>
-<div class="info-content">
-<h1 class="name" title="You Xie">You Xie</h1>
-<p class="title">Computer Research Scientist<br/>     Mechanical Engineer</p>
-</div>
-<button class="info_more-btn" data-sidebar-btn="">
-<span>Show Contacts</span>
-<ion-icon name="chevron-down"></ion-icon>
-</button>
-</div>
-<div class="sidebar-info_more">
-<div class="separator"></div>
-<ul class="contacts-list">
-<li class="contact-item">
-<div class="icon-box">
-<ion-icon name="mail-outline"></ion-icon>
-</div>
-<div class="contact-info">
-<p class="contact-title">Email</p>
-<a class="contact-link" href="mailto:you.xie.hust@gmail.com">you.xie.hust@gmail.com</a>
-</div>
-</li>
-<li class="contact-item">
-<div class="icon-box">
-<ion-icon name="location-outline"></ion-icon>
-</div>
-<div class="contact-info">
-<p class="contact-title">Location</p>
-<address>San Jose, California, USA</address>
-</div>
-</li>
-</ul>
-<div class="separator"></div>
-<ul class="social-list">
-<li class="social-item">
-<a class="social-link" href="https://scholar.google.com/citations?user=FV0eXhQAAAAJ&amp;hl=en">
-<i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
-</a>
-</li>
-<li class="social-item">
-<a class="social-link" href="https://linkedin.com/in/youxie">
-<ion-icon name="logo-linkedin"></ion-icon>
-</a>
-</li>
-</ul>
-</div>
-</aside>
-<!--
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/profile.png" alt="You Xie" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="You Xie">You Xie</h1>
+
+          <p class="title">Computer Research Scientist<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mechanical Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:you.xie.hust@gmail.com" class="contact-link">you.xie.hust@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>San Jose, California, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://scholar.google.com/citations?user=FV0eXhQAAAAJ&hl=en" class="social-link">
+              <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://linkedin.com/in/youxie" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
       - #main-content
     -->
-<div class="main-content">
-<!--
+
+    <div class="main-content">
+
+      <!--
         - #NAVBAR
       -->
-<nav class="navbar">
-<ul class="navbar-list">
-<li class="navbar-item">
-<button class="navbar-link active" data-nav-link="">Biography</button>
-</li>
-<li class="navbar-item">
-<button class="navbar-link" data-nav-link="">Projects</button>
-</li>
-</ul>
-</nav>
-<!--
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Biography</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
         - #ABOUT
       -->
-<article class="biography active" data-page="biography">
-<header>
-<h2 class="h2 biography-title">About Me</h2>
-</header>
-<section class="biography-text">
-<p>
+
+      <article class="biography  active" data-page="biography">
+
+        <header>
+          <h2 class="h2 biography-title">About Me</h2>
+        </header>
+
+        <section class="biography-text">
+          <p>
             I am currently a Research Scientist at the Intelligent Creation Lab, <a href="https://job.bytedance.com/en/" target="_blank"><font color="#f7db6a">ByteDance</font></a>. I earned my Ph.D. in Computer Science from the <a href="https://www.tum.de/" target="_blank"><font color="#f7db6a">Technical University of Munich</font></a>, where I was mentored by <a href="https://ge.in.tum.de/about/n-thuerey/" target="_blank"><font color="#f7db6a">Prof. Nils Thuerey</font></a>. Prior to that, I obtained an M.Eng. degree from the School of Mechanical Science and Engineering at <a href="https://english.hust.edu.cn/" target="_blank"><font color="#f7db6a">Huazhong University of Science and Technology</font></a>, and a B.Eng. degree from the College of Mechanical and Electrical Engineering at <a href="https://en.csu.edu.cn/" target="_blank"><font color="#f7db6a">Central South University</font></a>.
           </p>
-<p>
+          <p>
             My research interests lie in computer graphics and vision, video generation, and physics-based simulation.
           </p>
-</section>
-<!--
+        </section>
+
+        <!--
           - service
         -->
-<section class="service">
-<h3 class="h3 service-title">Keywords of Recent Research</h3>
-<ul class="service-list">
-<li class="service-item">
-<div class="service-icon-box">
-<img alt="design icon" src="./assets/images/robot.png
-                " width="40"/>
-</div>
-<div class="service-content-box">
-<h4 class="h4 service-item-title">Virtual Human</h4>
-<!-- <p class="service-item-text">
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Keywords of Recent Research</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/robot.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Virtual Human</h4>
+
+                <!-- <p class="service-item-text">
                   The most modern and high-quality design made at a professional level.
                 </p> -->
-</div>
-</li>
-<li class="service-item">
-<div class="service-icon-box">
-<img alt="Video Generation" src="./assets/images/video.png" width="40"/>
-</div>
-<div class="service-content-box">
-<h4 class="h4 service-item-title">Video Generation</h4>
-<!-- <p class="service-item-text">
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/video.png" alt="Video Generation" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Video Generation</h4>
+
+                <!-- <p class="service-item-text">
                   High-quality development of sites at the professional level.
                 </p> -->
-</div>
-</li>
-<li class="service-item">
-<div class="service-icon-box">
-<img alt="MultiModal Large Language Model" src="./assets/images/LLM_logo.png" width="40"/>
-</div>
-<div class="service-content-box">
-<h4 class="h4 service-item-title">MultiModal Large Language Model</h4>
-<!-- <p class="service-item-text">
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/LLM_logo.png" alt="MultiModal Large Language Model" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">MultiModal Large Language Model</h4>
+
+                <!-- <p class="service-item-text">
                   Professional development of applications for iOS and Android.
                 </p> -->
-</div>
-</li>
-<li class="service-item">
-<div class="service-icon-box">
-<img alt="Diffusion Model" src="./assets/images/diffusion_logo.png" width="40"/>
-</div>
-<div class="service-content-box">
-<h4 class="h4 service-item-title">Diffusion Model</h4>
-<!-- <p class="service-item-text">
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/diffusion_logo.png" alt="Diffusion Model" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Diffusion Model</h4>
+
+                <!-- <p class="service-item-text">
                   I make high-quality photos of any category at a professional level.
                 </p> -->
-</div>
-</li>
-</ul>
-</section>
-<section class="timeline">
-<div class="title-wrapper">
-<div class="icon-box">
-<ion-icon name="school-outline"></ion-icon>
-</div>
-<h3 class="h3">Education</h3>
-</div>
-<ol class="timeline-list">
-<li class="timeline-item">
-<h4 class="h4 timeline-item-title">Technical University of Munich</h4>
-<span>2017 — 2022</span>
-<p class="timeline-text">
-                Ph.D., Department of Computer Science <br/>
-                Research Topic: Video Generation; Deep Learning; Physics-based Simulation <br/>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Technical University of Munich</h4>
+
+              <span>2017 — 2022</span>
+
+              <p class="timeline-text">
+                Ph.D., Department of Computer Science <br>
+                Research Topic: Video Generation; Deep Learning; Physics-based Simulation <br>
                 Advisor: Prof. Nils Thuerey
               </p>
-</li>
-<li class="timeline-item">
-<h4 class="h4 timeline-item-title">Huazhong University of Science and Technology</h4>
-<span>2015 — 2017</span>
-<p class="timeline-text">
-                Master, School of Mechanical Science and Engineering, CAD Center <br/>
-                Research Topic: Multi-disciplinary Simulation and Optimization Algorithms <br/>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Huazhong University of Science and Technology</h4>
+
+              <span>2015 — 2017</span>
+
+              <p class="timeline-text">
+                Master, School of Mechanical Science and Engineering, CAD Center <br>
+                Research Topic: Multi-disciplinary Simulation and Optimization Algorithms <br>
                 Advisor: Prof. Yizhong Wu
               </p>
-</li>
-<li class="timeline-item">
-<h4 class="h4 timeline-item-title">Central South University</h4>
-<span>2011 — 2015</span>
-<p class="timeline-text">
-                Bachelor, College of Mechanical and Electrical Engineering <br/>
-                Major: Mechanical Design &amp; Manufacturing and Automation
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Central South University</h4>
+
+              <span>2011 — 2015</span>
+
+              <p class="timeline-text">
+                Bachelor, College of Mechanical and Electrical Engineering <br>
+                Major: Mechanical Design & Manufacturing and Automation
               </p>
-</li>
-</ol>
-</section>
-<section class="timeline">
-<div class="title-wrapper">
-<div class="icon-box">
-<ion-icon name="desktop-outline"></ion-icon>
-</div>
-<h3 class="h3">Career</h3>
-</div>
-<ol class="timeline-list">
-<li class="timeline-item">
-<h4 class="h4 timeline-item-title">Tiktok, Bytedance</h4>
-<span>2022.12 — now</span>
-<p class="timeline-text">
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="desktop-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Career</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Tiktok, Bytedance</h4>
+
+              <span>2022.12 — now</span>
+
+              <p class="timeline-text">
                 I work as a Research Scientist, focusing on cutting-edge video generation algorithms for virtual human-related applications.
               </p>
-</li>
-<li class="timeline-item">
-<h4 class="h4 timeline-item-title">National University of Singapore</h4>
-<span>2022.2 — 2022.4</span>
-<p class="timeline-text">
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">National University of Singapore</h4>
+
+              <span>2022.2 — 2022.4</span>
+
+              <p class="timeline-text">
                 I worked as a Research Assistant in the CVML Lab under the guidance of Prof. Angela Yao, where I focused on developing generative algorithms for 3D hand reconstruction from 2D images.
               </p>
-</li>
-<li class="timeline-item">
-<h4 class="h4 timeline-item-title">Bosch</h4>
-<span>2014.8 — 2014,12</span>
-<p class="timeline-text">
-                I worked as an Assistant Engineer in the R&amp;D department, specializing in the design and testing of starters.
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bosch</h4>
+
+              <span>2014.8 — 2014,12</span>
+
+              <p class="timeline-text">
+                I worked as an Assistant Engineer in the R&D department, specializing in the design and testing of starters.
               </p>
-</li>
-</ol>
-</section>
-<!--
+
+            </li>
+
+          </ol>
+
+        </section>
+        <!--
           - clients
         -->
-<section class="Experience">
-<h3 class="h3 experience-title">Main Experience</h3>
-<ul class="clients-list has-scrollbar">
-<li class="clients-item">
-<a href="https://www.tiktok.com/" target="_blank">
-<img alt="client logo" src="./assets/images/Tiktok_logo.png"/>
-</a>
-</li>
-<li class="clients-item">
-<a href="https://nus.edu.sg/" target="_blank">
-<img alt="client logo" src="./assets/images/NUS_logo.png"/>
-</a>
-</li>
-<li class="clients-item">
-<a href="https://www.tum.de/" target="_blank">
-<img alt="client logo" src="./assets/images/TUM_logo.png"/>
-</a>
-</li>
-<li class="clients-item">
-<a href="https://english.hust.edu.cn/" target="_blank">
-<img alt="client logo" src="./assets/images/HUST_logo.png"/>
-</a>
-</li>
-<li class="clients-item">
-<a href="https://www.bosch.de/" target="_blank">
-<img alt="client logo" src="./assets/images/BOSCH_logo.png"/>
-</a>
-</li>
-<li class="clients-item">
-<a href="https://en.csu.edu.cn/" target="_blank">
-<img alt="client logo" src="./assets/images/CSU_logo.png"/>
-</a>
-</li>
-</ul>
-</section>
-<!--
-  - Simple Game Section
--->
-<section class="game-section">
-<h3 class="h3 service-title" style="margin-top: 50px;">Just Take A Break!</h3>
-<div style="text-align:center;">
-<button id="startBtn" style="padding: 10px 20px; font-size: 16px; background-color: green; color: white; display: block; margin: 5px auto 0 auto;">Start &amp; Jump</button>
-</div>
-<canvas height="220" id="littleManCanvas" style="display: block; margin: 0 auto; height: 120px; width: 500px; " width="400"></canvas>
-<p style="text-align:center; margin-top: 5px; color: white;">Click the button to jump over obstacles. How far can you go?</p>
-</section>
-<div class="modal-container" data-modal-container="">
-<div class="overlay" data-overlay=""></div>
-<section class="testimonials-modal">
-<button class="modal-close-btn" data-modal-close-btn="">
-<ion-icon name="close-outline"></ion-icon>
-</button>
-</section>
-</div>
-</article>
-<!--
+
+        <section class="Experience">
+
+          <h3 class="h3 experience-title">Main Experience</h3>
+
+          <ul class="clients-list has-scrollbar">
+            <li class="clients-item">
+              <a href="https://www.tiktok.com/" target="_blank">
+                <img src="./assets/images/Tiktok_logo.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://nus.edu.sg/" target="_blank">
+                <img src="./assets/images/NUS_logo.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.tum.de/" target="_blank">
+                <img src="./assets/images/TUM_logo.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://english.hust.edu.cn/" target="_blank">
+                <img src="./assets/images/HUST_logo.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.bosch.de/" target="_blank">
+                <img src="./assets/images/BOSCH_logo.png" alt="client logo">
+              </a>
+            </li>
+
+
+            <li class="clients-item">
+              <a href="https://en.csu.edu.cn/" target="_blank">
+                <img src="./assets/images/CSU_logo.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+
+        </section>
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+      <!--
         - #PORTFOLIO
       -->
-<article class="projects" data-page="projects">
-<header>
-<h2 class="h2 article-title">Projects</h2>
-</header>
-<h3 class="h3 service-title"><a href="https://scholar.google.com/citations?user=FV0eXhQAAAAJ&amp;hl=en" target="_blank"><font color="#92e8af"><i class="ai ai-google-scholar"></i>&nbsp;&nbspGoogle Scholar</font></a></h3>
-<section class="projects-posts">
-<ul class="projects-posts-list">
-<!--
+
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+        <h3 class="h3 service-title"><a href="https://scholar.google.com/citations?user=FV0eXhQAAAAJ&hl=en" target="_blank"><font color="#92e8af"><i class="ai ai-google-scholar"></i>&nbsp;&nbspGoogle Scholar</font></a></h3>
+        <section class="projects-posts">
+          <ul class="projects-posts-list">
+            <!--
               - #xdancer
             -->
-<li class="blog-post-item">
-<div style="
+            <li class="blog-post-item">
+              <div style="
                   border: 0px solid #4CAF50;
                   border-radius: 10px;
                   padding: 15px;
                   background-color: #000000;
                   margin: 20px 0;
                   box-shadow: 0px 4px 8px rgba(112, 112, 112, 1);">
-<a href="https://arxiv.org/pdf/2502.17414" target="_blank">
-<figure class="blog-banner-box">
-<img loading="lazy" src="./assets/images/xdancer.png"/>
-</figure>
-<div class="blog-content">
-<div class="blog-meta">
-<p><a href="https://arxiv.org/pdf/2502.17414" target="_blank"><font color="#ffcc00">Paper</font></a></p>
-</div>
-<h3 class="h3 blog-item-title"><font color="#bcc2be">X-Dancer: Expressive Music to Human Dance Video Generation</font></h3>
-<h4 class="h4 service-item-title"><font color="#bcc2be">Zeyuan Chen, Hongyi Xu, Guoxian Song, You Xie, Chenxu Zhang, Xin Chen, Chao Wang, Di Chang, Linjie Luo</font></h4>
-<div class="text-container">
-<p class="text-content">
-<font color="#bcc2be">We present X-Dancer, a novel zero-shot music-driven image animation pipeline that creates diverse and long-range lifelike human dance videos from a single static image. As its core, we introduce a unified transformer-diffusion framework, featuring an autoregressive transformer model that synthesize extended and music-synchronized token sequences for 2D body, head and hands poses, which then guide a diffusion model to produce coherent and realistic dance video frames. Unlike traditional methods that primarily generate human motion in 3D,  X-Dancer addresses data limitations and enhances scalability by modeling a wide spectrum of 2D dance motions, capturing their nuanced alignment with musical beats through readily available monocular videos. To achieve this, we first build a spatially compositional token representation from 2D human pose labels associated with keypoint confidences, encoding both large articulated body movements (e.g., upper and lower body) and fine-grained motions (e.g., head and hands). We then design a music-to-motion transformer model that autoregressively generates music-aligned dance pose token sequences, incorporating global attention to both musical style and prior motion context.  Finally we leverage a diffusion backbone to animate the reference image with these synthesized pose tokens through AdaIN, forming a fully differentiable end-to-end framework. Experimental results demonstrate that X-Dancer is able to produce both diverse and characterized dance videos, substantially outperforming state-of-the-art methods in term of diversity, expressiveness and realism.</font>
-</p>
-<button class="toggle-button">expand</button>
-</div>
-</div>
-</a>
-</div>
-</li>
-<!--
+              <a href="https://arxiv.org/pdf/2502.17414" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/xdancer.png" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <p><a href="https://arxiv.org/pdf/2502.17414" target="_blank"><font color="#ffcc00">Paper</font></a></p>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title"><font color="#bcc2be">X-Dancer: Expressive Music to Human Dance Video Generation</font></h3>
+
+                  <h4 class="h4 service-item-title"><font color="#bcc2be">Zeyuan Chen, Hongyi Xu, Guoxian Song, You Xie, Chenxu Zhang, Xin Chen, Chao Wang, Di Chang, Linjie Luo</font></h4>
+                  <div class="text-container">
+                    <p class="text-content">
+                        <font color="#bcc2be">We present X-Dancer, a novel zero-shot music-driven image animation pipeline that creates diverse and long-range lifelike human dance videos from a single static image. As its core, we introduce a unified transformer-diffusion framework, featuring an autoregressive transformer model that synthesize extended and music-synchronized token sequences for 2D body, head and hands poses, which then guide a diffusion model to produce coherent and realistic dance video frames. Unlike traditional methods that primarily generate human motion in 3D,  X-Dancer addresses data limitations and enhances scalability by modeling a wide spectrum of 2D dance motions, capturing their nuanced alignment with musical beats through readily available monocular videos. To achieve this, we first build a spatially compositional token representation from 2D human pose labels associated with keypoint confidences, encoding both large articulated body movements (e.g., upper and lower body) and fine-grained motions (e.g., head and hands). We then design a music-to-motion transformer model that autoregressively generates music-aligned dance pose token sequences, incorporating global attention to both musical style and prior motion context.  Finally we leverage a diffusion backbone to animate the reference image with these synthesized pose tokens through AdaIN, forming a fully differentiable end-to-end framework. Experimental results demonstrate that X-Dancer is able to produce both diverse and characterized dance videos, substantially outperforming state-of-the-art methods in term of diversity, expressiveness and realism.</font>
+                    </p>
+                    <button class="toggle-button">expand</button>
+                </div>
+                </div>
+                </a>
+                </div>
+            </li>
+            <!--
               - #xdyna
             -->
-<li class="blog-post-item">
-<div style="
+            <li class="blog-post-item">
+              <div style="
                   border: 0px solid #4CAF50;
                   border-radius: 10px;
                   padding: 15px;
                   background-color: #000000;
                   margin: 20px 0;
                   box-shadow: 0px 4px 8px rgba(112, 112, 112, 1);">
-<a href="https://x-dyna.github.io/xdyna.github.io/" target="_blank">
-<figure class="blog-banner-box">
-<img loading="lazy" src="./assets/images/xdyna.png"/>
-</figure>
-<div class="blog-content">
-<div class="blog-meta">
-<p><a href="https://x-dyna.github.io/xdyna.github.io/" target="_blank"><font color="#ffcc00">Webpage</font></a></p>
-<span class="dot"></span>
-<p><a href="https://github.com/bytedance/X-Dyna" target="_blank"><font color="#ffcc00">Code</font></a></p>
-</div>
-<h3 class="h3 blog-item-title"><font color="#bcc2be">X-Dyna: Expressive Dynamic Human Image Animation</font></h3>
-<h4 class="h4 service-item-title"><font color="#bcc2be">Di Chang, Hongyi Xu, You Xie, Yipeng Gao, Zhengfei Kuang, Shengqu Cai, Chenxu Zhang, Guoxian Song, Chao Wang, Yichun Shi, Zeyuan Chen, Shijie Zhou, Linjie Luo, Gordon Wetzstein, Mohammad Soleymani</font></h4>
-<p><font color="#c9ed9a">CVPR 2025(Highlight)</font></p>
-<div class="text-container">
-<p class="text-content">
-<font color="#bcc2be">We introduce X-Dyna, a novel zero-shot, diffusion-based pipeline for animating a single human image using facial expressions and body movements derived from a driving video, that generates realistic, context-aware dynamics for both the subject and the surrounding environment. Building on prior approaches centered on human pose control, X-Dyna addresses key factors underlying the loss of dynamic details, enhancing the lifelike qualities of human video animations. At the core of our approach is the Dynamics-Adapter, a lightweight module that effectively integrates reference appearance context into the spatial attentions of the diffusion backbone while preserving the capacity of motion modules in synthesizing fluid and intricate dynamic details. Beyond body pose control, we connect a local control module with our model to capture identity-disentangled facial expressions, facilitating accurate expression transfer for enhanced realism in animated scenes. Together, these components form a unified framework capable of learning physical human motion and natural scene dynamics from a diverse blend of human and scene videos. Comprehensive qualitative and quantitative evaluations demonstrate that X-Dyna outperforms state-of-the-art methods, creating highly lifelike and expressive animations.</font>
-</p>
-<button class="toggle-button">expand</button>
-</div>
-</div>
-</a>
-</div>
-</li>
-<!--
+              <a href="https://x-dyna.github.io/xdyna.github.io/" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/xdyna.png" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <p><a href="https://x-dyna.github.io/xdyna.github.io/" target="_blank"><font color="#ffcc00">Webpage</font></a></p>
+                    <span class="dot"></span>
+
+                    <p><a href="https://github.com/bytedance/X-Dyna" target="_blank"><font color="#ffcc00">Code</font></a></p>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title"><font color="#bcc2be">X-Dyna: Expressive Dynamic Human Image Animation</font></h3>
+
+                  <h4 class="h4 service-item-title"><font color="#bcc2be">Di Chang, Hongyi Xu, You Xie, Yipeng Gao, Zhengfei Kuang, Shengqu Cai, Chenxu Zhang, Guoxian Song, Chao Wang, Yichun Shi, Zeyuan Chen, Shijie Zhou, Linjie Luo, Gordon Wetzstein, Mohammad Soleymani</font></h4>
+                  <p><font color="#c9ed9a">CVPR 2025(Highlight)</font></p>
+                  <div class="text-container">
+                    <p class="text-content">
+                        <font color="#bcc2be">We introduce X-Dyna, a novel zero-shot, diffusion-based pipeline for animating a single human image using facial expressions and body movements derived from a driving video, that generates realistic, context-aware dynamics for both the subject and the surrounding environment. Building on prior approaches centered on human pose control, X-Dyna addresses key factors underlying the loss of dynamic details, enhancing the lifelike qualities of human video animations. At the core of our approach is the Dynamics-Adapter, a lightweight module that effectively integrates reference appearance context into the spatial attentions of the diffusion backbone while preserving the capacity of motion modules in synthesizing fluid and intricate dynamic details. Beyond body pose control, we connect a local control module with our model to capture identity-disentangled facial expressions, facilitating accurate expression transfer for enhanced realism in animated scenes. Together, these components form a unified framework capable of learning physical human motion and natural scene dynamics from a diverse blend of human and scene videos. Comprehensive qualitative and quantitative evaluations demonstrate that X-Dyna outperforms state-of-the-art methods, creating highly lifelike and expressive animations.</font>
+                    </p>
+                    <button class="toggle-button">expand</button>
+                </div>
+                </div>
+                </a>
+                </div>
+            </li>
+
+            <!--
               - #xportrait2
             -->
-<li class="blog-post-item">
-<div style="
+            <li class="blog-post-item">
+              <div style="
                   border: 0px solid #4CAF50;
                   border-radius: 10px;
                   padding: 15px;
                   background-color: #000000;
                   margin: 20px 0;
                   box-shadow: 0px 4px 8px rgba(112, 112, 112, 1);">
-<a href="https://byteaigc.github.io/X-Portrait2/" target="_blank">
-<figure class="blog-banner-box">
-<img loading="lazy" src="./assets/images/xportrait2.png"/>
-</figure>
-<div class="blog-content">
-<div class="blog-meta">
-<p><a href="https://byteaigc.github.io/X-Portrait2/" target="_blank"><font color="#ffcc00">Webpage</font></a></p>
-<span class="dot"></span>
-<p><a href="https://venturebeat.com/ai/bytedances-ai-can-now-turn-your-selfies-into-videos-but-should-we-be-worried/" target="_blank"><font color="#ffcc00">News</font></a></p>
-</div>
-<h3 class="h3 blog-item-title"><font color="#bcc2be">X-Portrait 2: Highly Expressive Portrait Animation</font></h3>
-<h4 class="h4 service-item-title"><font color="#bcc2be">Xiaochen Zhao, Hongyi Xu, Guoxian Song, You Xie, Chenxu Zhang, Xiu Li, Linjie Luo, Jinli Suo, Yebin Liu</font></h4>
-<div class="text-container">
-<p class="text-content">
-<font color="#bcc2be">We introduce X-Portrait 2, which builds upon our previous work X-Portrait and brings the expressiveness of portrait animation to a whole new level. To achieve this, we build a state-of-the-art expression encoder model that implicitly encodes every minuscule expressions from the input by training it on large-scale datasets. This encoder is then combined with powerful generative diffusion models to generate fluid and expressive videos. Our X-Portrait 2 model can transfer subtle and minuscule facial expressions from the actors as well as challenging expressions including pouting, tougue-out, cheek-puffing and frowning. High fidelity of emotion preservation can also be achieved in the generated videos.</font>
-</p>
-<button class="toggle-button">expand</button>
-</div>
-</div>
-</a>
-</div>
-</li>
-<!--
+              <a href="https://byteaigc.github.io/X-Portrait2/" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/xportrait2.png" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <p><a href="https://byteaigc.github.io/X-Portrait2/" target="_blank"><font color="#ffcc00">Webpage</font></a></p>
+                    <span class="dot"></span>
+
+                    <p><a href="https://venturebeat.com/ai/bytedances-ai-can-now-turn-your-selfies-into-videos-but-should-we-be-worried/" target="_blank"><font color="#ffcc00">News</font></a></p>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title"><font color="#bcc2be">X-Portrait 2: Highly Expressive Portrait Animation</font></h3>
+
+                  <h4 class="h4 service-item-title"><font color="#bcc2be">Xiaochen Zhao, Hongyi Xu, Guoxian Song, You Xie, Chenxu Zhang, Xiu Li, Linjie Luo, Jinli Suo, Yebin Liu</font></h4>
+                  <div class="text-container">
+                    <p class="text-content">
+                        <font color="#bcc2be">We introduce X-Portrait 2, which builds upon our previous work X-Portrait and brings the expressiveness of portrait animation to a whole new level. To achieve this, we build a state-of-the-art expression encoder model that implicitly encodes every minuscule expressions from the input by training it on large-scale datasets. This encoder is then combined with powerful generative diffusion models to generate fluid and expressive videos. Our X-Portrait 2 model can transfer subtle and minuscule facial expressions from the actors as well as challenging expressions including pouting, tougue-out, cheek-puffing and frowning. High fidelity of emotion preservation can also be achieved in the generated videos.</font>
+                    </p>
+                    <button class="toggle-button">expand</button>
+                </div>
+                </div>
+                </a>
+                </div>
+            </li>
+            <!--
               - #xportrait
             -->
-<li class="blog-post-item">
-<div style="
+            <li class="blog-post-item">
+              <div style="
                   border: 0px solid #4CAF50;
                   border-radius: 10px;
                   padding: 15px;
                   background-color: #000000;
                   margin: 20px 0;
                   box-shadow: 0px 4px 8px rgba(112, 112, 112, 1);">
-<a href="https://byteaigc.github.io/x-portrait/" target="_blank">
-<figure class="blog-banner-box">
-<img loading="lazy" src="./assets/images/xportrait.png"/>
-</figure>
-<div class="blog-content">
-<div class="blog-meta">
-<p><a href="https://arxiv.org/pdf/2403.15931" target="_blank"><font color="#ffcc00">Paper</font></a></p>
-<span class="dot"></span>
-<p><a href="https://github.com/bytedance/X-Portrait" target="_blank"><font color="#ffcc00">Code</font></a></p>
-<span class="dot"></span>
-<p><a href="https://www.youtube.com/watch?v=VGxt5XghRdw&amp;ab_channel=YouXie" target="_blank"><font color="#ffcc00">Video</font></a></p>
-<span class="dot"></span>
-<p><a href="https://byteaigc.github.io/x-portrait/" target="_blank"><font color="#ffcc00">Webpage</font></a></p>
-</div>
-<h3 class="h3 blog-item-title"><font color="#bcc2be">X-Portrait: Expressive Portrait Animation with Hierarchical Motion Attention</font></h3>
-<h4 class="h4 service-item-title"><font color="#bcc2be">You Xie, Hongyi Xu, Guoxian Song, Chao Wang, Yichun Shi, Linjie Luo</font></h4>
-<p><font color="#c9ed9a">SIGGRAPH 2024</font></p>
-<div class="text-container">
-<p class="text-content">
-<font color="#bcc2be">We propose X-Portrait, an innovative conditional diffusion model tailored for generating expressive and temporally coherent portrait animation. Specifically, given a single portrait as appearance reference, we aim to animate it with motion derived from a driving video, capturing both highly dynamic and subtle facial expressions along with wide-range head movements. As its core, we leverage the generative prior of a pre-trained diffusion model as the rendering backbone, while achieve fine-grained head pose and expression control with novel controlling signals within the framework of ControlNet. In contrast to conventional coarse explicit controls such as facial landmarks, our motion control module is learned to interpret the dynamics directly from the original driving RGB inputs. The motion accuracy is further enhanced with a patch-based local control module that effectively enhance the motion attention to small-scale nuances like eyeball positions. Notably, to mitigate the identity leakage from the driving signals, we train our motion control modules with scaling-augmented cross-identity images, ensuring maximized disentanglement from the appearance reference modules. Experimental results demonstrate the universal effectiveness of X-Portrait across a diverse range of facial portraits and expressive driving sequences, and showcase its proficiency in generating captivating portrait animations with consistently maintained identity characteristics.</font>
-</p>
-<button class="toggle-button">expand</button>
-</div>
-</div>
-</a>
-</div>
-</li>
-<!--
+              <a href="https://byteaigc.github.io/x-portrait/" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/xportrait.png" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <p><a href="https://arxiv.org/pdf/2403.15931" target="_blank"><font color="#ffcc00">Paper</font></a></p>
+                    <span class="dot"></span>
+
+                    <p><a href="https://github.com/bytedance/X-Portrait" target="_blank"><font color="#ffcc00">Code</font></a></p>
+                    <span class="dot"></span>
+
+                    <p><a href="https://www.youtube.com/watch?v=VGxt5XghRdw&ab_channel=YouXie" target="_blank"><font color="#ffcc00">Video</font></a></p>
+                    <span class="dot"></span>
+
+                    <p><a href="https://byteaigc.github.io/x-portrait/" target="_blank"><font color="#ffcc00">Webpage</font></a></p>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title"><font color="#bcc2be">X-Portrait: Expressive Portrait Animation with Hierarchical Motion Attention</font></h3>
+
+                  <h4 class="h4 service-item-title"><font color="#bcc2be">You Xie, Hongyi Xu, Guoxian Song, Chao Wang, Yichun Shi, Linjie Luo</font></h4>
+                  <p><font color="#c9ed9a">SIGGRAPH 2024</font></p>
+                  <div class="text-container">
+                    <p class="text-content">
+                        <font color="#bcc2be">We propose X-Portrait, an innovative conditional diffusion model tailored for generating expressive and temporally coherent portrait animation. Specifically, given a single portrait as appearance reference, we aim to animate it with motion derived from a driving video, capturing both highly dynamic and subtle facial expressions along with wide-range head movements. As its core, we leverage the generative prior of a pre-trained diffusion model as the rendering backbone, while achieve fine-grained head pose and expression control with novel controlling signals within the framework of ControlNet. In contrast to conventional coarse explicit controls such as facial landmarks, our motion control module is learned to interpret the dynamics directly from the original driving RGB inputs. The motion accuracy is further enhanced with a patch-based local control module that effectively enhance the motion attention to small-scale nuances like eyeball positions. Notably, to mitigate the identity leakage from the driving signals, we train our motion control modules with scaling-augmented cross-identity images, ensuring maximized disentanglement from the appearance reference modules. Experimental results demonstrate the universal effectiveness of X-Portrait across a diverse range of facial portraits and expressive driving sequences, and showcase its proficiency in generating captivating portrait animations with consistently maintained identity characteristics.</font>
+                    </p>
+                    <button class="toggle-button">expand</button>
+                </div>
+                </div>
+                </a>
+                </div>
+            </li>
+            <!--
               - #social avatar
             -->
-<li class="blog-post-item">
-<div style="
+            <li class="blog-post-item">
+              <div style="
                   border: 0px solid #4CAF50;
                   border-radius: 10px;
                   padding: 15px;
                   background-color: #000000;
                   margin: 20px 0;
                   box-shadow: 0px 4px 8px rgba(112, 112, 112, 1);">
-<div class="blog-content">
-<div style="text-align: center;">
-<iframe allow="accelerometer; autoplay;
-                          clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/Y1mZX9j96o4" title="YouTube video player" width="560">
-</iframe>
-</div>
-<h3 class="h3 blog-item-title"><font color="#bcc2be">Dynamic Avatar in TikTok User Profile</font></h3>
-<font color="#bcc2be">The algorithm developed by our team has been meticulously optimized and seamlessly integrated into TikTok, empowering users to create their own dynamic avatar profiles. This innovative feature enhances the user experience by making profile customization more engaging, interactive, and enjoyable for millions of users around the globe.</font>
-</div>
-</div>
-</li>
-<!--
+                <div class="blog-content">
+                  <div style="text-align: center;">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/Y1mZX9j96o4"
+                          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+                          clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen>
+                      </iframe>
+                  </div>
+                  <h3 class="h3 blog-item-title"><font color="#bcc2be">Dynamic Avatar in TikTok User Profile</font></h3>
+                    <font color="#bcc2be">The algorithm developed by our team has been meticulously optimized and seamlessly integrated into TikTok, empowering users to create their own dynamic avatar profiles. This innovative feature enhances the user experience by making profile customization more engaging, interactive, and enjoyable for millions of users around the globe.</font>
+                </div>
+              </div>
+            </li>
+            <!--
               - #dreamtalk
             -->
-<li class="blog-post-item">
-<div style="
+            <li class="blog-post-item">
+              <div style="
                   border: 0px solid #4CAF50;
                   border-radius: 10px;
                   padding: 15px;
                   background-color: #000000;
                   margin: 20px 0;
                   box-shadow: 0px 4px 8px rgba(112, 112, 112, 1);">
-<a href="https://magic-research.github.io/dream-talk/" target="_blank">
-<figure class="blog-banner-box">
-<img loading="lazy" src="./assets/images/dreamtalk.png"/>
-</figure>
-<div class="blog-content">
-<div class="blog-meta">
-<p><a href="https://arxiv.org/abs/2312.13578" target="_blank"><font color="#ffcc00">Paper</font></a></p>
-<span class="dot"></span>
-<p><a href="https://magic-research.github.io/dream-talk/" target="_blank"><font color="#ffcc00">Webpage</font></a></p>
-</div>
-<h3 class="h3 blog-item-title"><font color="#bcc2be">DREAM-Talk: Diffusion-based Realistic Emotional Audio-driven Method for Single Image Talking Face Generation</font></h3>
-<h4 class="h4 service-item-title"><font color="#bcc2be">Chenxu Zhang, Chao Wang, Jianfeng Zhang, Hongyi Xu, Guoxian Song, You Xie, Linjie Luo, Yapeng Tian, Xiaohu Guo, Jiashi Feng</font></h4>
-<p><font color="#c9ed9a">CVM 2025</font></p>
-<div class="text-container">
-<p class="text-content">
-<font color="#bcc2be">We propose X-Portrait, an innovative conditional diffusion model tailored for generating expressive and temporally coherent portrait animation. Specifically, given a single portrait as appearance reference, we aim to animate it with motion derived from a driving video, capturing both highly dynamic and subtle facial expressions along with wide-range head movements. As its core, we leverage the generative prior of a pre-trained diffusion model as the rendering backbone, while achieve fine-grained head pose and expression control with novel controlling signals within the framework of ControlNet. In contrast to conventional coarse explicit controls such as facial landmarks, our motion control module is learned to interpret the dynamics directly from the original driving RGB inputs. The motion accuracy is further enhanced with a patch-based local control module that effectively enhance the motion attention to small-scale nuances like eyeball positions. Notably, to mitigate the identity leakage from the driving signals, we train our motion control modules with scaling-augmented cross-identity images, ensuring maximized disentanglement from the appearance reference modules. Experimental results demonstrate the universal effectiveness of X-Portrait across a diverse range of facial portraits and expressive driving sequences, and showcase its proficiency in generating captivating portrait animations with consistently maintained identity characteristics.</font>
-</p>
-<button class="toggle-button">expand</button>
-</div>
-</div>
-</a>
-</div>
-</li>
-<!--
+              <a href="https://magic-research.github.io/dream-talk/" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/dreamtalk.png" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <p><a href="https://arxiv.org/abs/2312.13578" target="_blank"><font color="#ffcc00">Paper</font></a></p>
+                    <span class="dot"></span>
+
+                    <p><a href="https://magic-research.github.io/dream-talk/" target="_blank"><font color="#ffcc00">Webpage</font></a></p>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title"><font color="#bcc2be">DREAM-Talk: Diffusion-based Realistic Emotional Audio-driven Method for Single Image Talking Face Generation</font></h3>
+
+                  <h4 class="h4 service-item-title"><font color="#bcc2be">Chenxu Zhang, Chao Wang, Jianfeng Zhang, Hongyi Xu, Guoxian Song, You Xie, Linjie Luo, Yapeng Tian, Xiaohu Guo, Jiashi Feng</font></h4>
+                  <p><font color="#c9ed9a">CVM 2025</font></p>
+                  <div class="text-container">
+                    <p class="text-content">
+                        <font color="#bcc2be">We propose X-Portrait, an innovative conditional diffusion model tailored for generating expressive and temporally coherent portrait animation. Specifically, given a single portrait as appearance reference, we aim to animate it with motion derived from a driving video, capturing both highly dynamic and subtle facial expressions along with wide-range head movements. As its core, we leverage the generative prior of a pre-trained diffusion model as the rendering backbone, while achieve fine-grained head pose and expression control with novel controlling signals within the framework of ControlNet. In contrast to conventional coarse explicit controls such as facial landmarks, our motion control module is learned to interpret the dynamics directly from the original driving RGB inputs. The motion accuracy is further enhanced with a patch-based local control module that effectively enhance the motion attention to small-scale nuances like eyeball positions. Notably, to mitigate the identity leakage from the driving signals, we train our motion control modules with scaling-augmented cross-identity images, ensuring maximized disentanglement from the appearance reference modules. Experimental results demonstrate the universal effectiveness of X-Portrait across a diverse range of facial portraits and expressive driving sequences, and showcase its proficiency in generating captivating portrait animations with consistently maintained identity characteristics.</font>
+                    </p>
+                    <button class="toggle-button">expand</button>
+                </div>
+                </div>
+                </a>
+                </div>
+            </li>
+            <!--
               - #diffportrait3D
             -->
-<li class="blog-post-item">
-<div style="
+            <li class="blog-post-item">
+              <div style="
                   border: 0px solid #4CAF50;
                   border-radius: 10px;
                   padding: 15px;
                   background-color: #000000;
                   margin: 20px 0;
                   box-shadow: 0px 4px 8px rgba(112, 112, 112, 1);">
-<a href="https://freedomgu.github.io/DiffPortrait3D/" target="_blank">
-<figure class="blog-banner-box">
-<img loading="lazy" src="./assets/images/diffportrait3d.png"/>
-</figure>
-<div class="blog-content">
-<div class="blog-meta">
-<p><a href="https://arxiv.org/pdf/2312.13016" target="_blank"><font color="#ffcc00">Paper</font></a></p>
-<span class="dot"></span>
-<p><a href="https://github.com/FreedomGu/DiffPortrait3D" target="_blank"><font color="#ffcc00">Code</font></a></p>
-<span class="dot"></span>
-<p><a href="https://www.youtube.com/watch?v=mI8RJ_f3Csw&amp;ab_channel=YumingGu" target="_blank"><font color="#ffcc00">Video</font></a></p>
-<span class="dot"></span>
-<p><a href="https://freedomgu.github.io/DiffPortrait3D/" target="_blank"><font color="#ffcc00">Webpage</font></a></p>
-</div>
-<h3 class="h3 blog-item-title"><font color="#bcc2be">DiffPortrait3D: Controllable Diffusion for Zero-Shot Portrait View Synthesis</font></h3>
-<h4 class="h4 service-item-title"><font color="#bcc2be">Yuming Gu, You Xie, Hongyi Xu, Guoxian Song, Yichun Shi, Di Chang, Jing Yang, Linjie Luo</font></h4>
-<p><font color="#c9ed9a">CVPR 2024(Highlight)</font></p>
-<div class="text-container">
-<p class="text-content">
-<font color="#bcc2be">We present DiffPortrait3D, a conditional diffusion model that is capable of synthesizing 3D-consistent photo-realistic novel views from as few as a single in-the-wild portrait. Specifically, given a single RGB input, we aim to synthesize plausible but consistent facial details rendered from novel camera views with retained both identity and facial expression. In lieu of time-consuming optimization and finetuning, our zero-shot method generalizes well to arbitrary face portraits with unposed camera views, extreme facial expressions, and diverse artistic depictions. At its core, we leverage the generative prior of 2D diffusion models pre-trained on large-scale image datasets as our rendering backbone, while the denoising is guided with disentangled attentive control of appearance and camera pose. To achieve this, we first inject the appearance context from the reference image into the self-attention layers of the frozen UNets. The rendering view is then manipulated with a novel conditional control module that interprets the camera pose by watching a condition image of a crossed subject from the same view. Furthermore, we insert a trainable crossview attention module to enhance view consistency, which is further strengthened with a novel 3D-aware noise generation process during inference. We demonstrate state-ofthe-art results both qualitatively and quantitatively on our challenging in-the-wild and multi-view benchmarks.</font>
-</p>
-<button class="toggle-button">expand</button>
-</div>
-</div>
-</a>
-</div>
-</li>
-<!--
+              <a href="https://freedomgu.github.io/DiffPortrait3D/" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/diffportrait3d.png" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <p><a href="https://arxiv.org/pdf/2312.13016" target="_blank"><font color="#ffcc00">Paper</font></a></p>
+                    <span class="dot"></span>
+
+                    <p><a href="https://github.com/FreedomGu/DiffPortrait3D" target="_blank"><font color="#ffcc00">Code</font></a></p>
+                    <span class="dot"></span>
+
+                    <p><a href="https://www.youtube.com/watch?v=mI8RJ_f3Csw&ab_channel=YumingGu" target="_blank"><font color="#ffcc00">Video</font></a></p>
+                    <span class="dot"></span>
+
+                    <p><a href="https://freedomgu.github.io/DiffPortrait3D/" target="_blank"><font color="#ffcc00">Webpage</font></a></p>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title"><font color="#bcc2be">DiffPortrait3D: Controllable Diffusion for Zero-Shot Portrait View Synthesis</font></h3>
+
+                  <h4 class="h4 service-item-title"><font color="#bcc2be">Yuming Gu, You Xie, Hongyi Xu, Guoxian Song, Yichun Shi, Di Chang, Jing Yang, Linjie Luo</font></h4>
+                  <p><font color="#c9ed9a">CVPR 2024(Highlight)</font></p>
+                  <div class="text-container">
+                    <p class="text-content">
+                        <font color="#bcc2be">We present DiffPortrait3D, a conditional diffusion model that is capable of synthesizing 3D-consistent photo-realistic novel views from as few as a single in-the-wild portrait. Specifically, given a single RGB input, we aim to synthesize plausible but consistent facial details rendered from novel camera views with retained both identity and facial expression. In lieu of time-consuming optimization and finetuning, our zero-shot method generalizes well to arbitrary face portraits with unposed camera views, extreme facial expressions, and diverse artistic depictions. At its core, we leverage the generative prior of 2D diffusion models pre-trained on large-scale image datasets as our rendering backbone, while the denoising is guided with disentangled attentive control of appearance and camera pose. To achieve this, we first inject the appearance context from the reference image into the self-attention layers of the frozen UNets. The rendering view is then manipulated with a novel conditional control module that interprets the camera pose by watching a condition image of a crossed subject from the same view. Furthermore, we insert a trainable crossview attention module to enhance view consistency, which is further strengthened with a novel 3D-aware noise generation process during inference. We demonstrate state-ofthe-art results both qualitatively and quantitatively on our challenging in-the-wild and multi-view benchmarks.</font>
+                    </p>
+                    <button class="toggle-button">expand</button>
+                </div>
+                </div>
+                </a>
+                </div>
+            </li>
+            <!--
               - #doubao talking avatar
             -->
-<li class="blog-post-item">
-<div style="
+            <li class="blog-post-item">
+              <div style="
                   border: 0px solid #4CAF50;
                   border-radius: 10px;
                   padding: 15px;
                   background-color: #000000;
                   margin: 20px 0;
                   box-shadow: 0px 4px 8px rgba(112, 112, 112, 1);">
-<div class="blog-content">
-<div style="text-align: center;">
-<iframe allow="accelerometer; autoplay;
-                          clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/6kJRNaMWSxo" title="YouTube video player" width="560">
-</iframe>
-<iframe allow="accelerometer; autoplay;
-                          clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/14YlyD_UeTQ" title="YouTube video player" width="560">
-</iframe>
-</div>
-<h3 class="h3 blog-item-title"><font color="#bcc2be">Doubao Avatar: Real-time Chatting Avatar on Mobile Devices</font></h3>
-<p>
-<font color="#bcc2be">Developed a real-time, audio-driven portrait animation algorithm for single-image inputs, seamlessly integrated into the Doubao App. This innovative solution generates lifelike talking animations using just one portrait image, featuring precise lip-sync, authentic facial expressions, and natural head movements.</font>
-</p>
-</div>
-</div>
-</li>
-<!--
+                <div class="blog-content">
+                  <div style="text-align: center;">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/6kJRNaMWSxo"
+                          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+                          clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen>
+                      </iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/14YlyD_UeTQ"
+                          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+                          clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen>
+                      </iframe>
+                  </div>
+                  <h3 class="h3 blog-item-title"><font color="#bcc2be">Doubao Avatar: Real-time Chatting Avatar on Mobile Devices</font></h3>
+
+                    <p>
+                        <font color="#bcc2be">Developed a real-time, audio-driven portrait animation algorithm for single-image inputs, seamlessly integrated into the Doubao App. This innovative solution generates lifelike talking animations using just one portrait image, featuring precise lip-sync, authentic facial expressions, and natural head movements.</font>
+                    </p>
+                </div>
+                </div>
+            </li>
+            <!--
               - #tecoGAN
             -->
-<li class="blog-post-item">
-<div style="
+            <li class="blog-post-item">
+              <div style="
                   border: 0px solid #4CAF50;
                   border-radius: 10px;
                   padding: 15px;
                   background-color: #000000;
                   margin: 20px 0;
                   box-shadow: 0px 4px 8px rgba(112, 112, 112, 1);">
-<a href="https://www.youtube.com/watch?v=pZXFXtfd-Ak&amp;ab_channel=NilsThuerey" target="_blank">
-<figure class="blog-banner-box">
-<img loading="lazy" src="./assets/images/tecoGAN.png"/>
-</figure>
-<div class="blog-content">
-<div class="blog-meta">
-<p><a href="https://arxiv.org/pdf/1811.09393" target="_blank"><font color="#ffcc00">Paper</font></a></p>
-<span class="dot"></span>
-<p><a href="https://www.youtube.com/watch?v=pZXFXtfd-Ak&amp;ab_channel=NilsThuerey" target="_blank"><font color="#ffcc00">Video</font></a></p>
-<span class="dot"></span>
-<p><a href="https://github.com/thunil/TecoGAN" target="_blank"><font color="#ffcc00">Code</font></a></p>
-</div>
-<h3 class="h3 blog-item-title"><font color="#bcc2be">Learning Temporal Coherence via Self-Supervision for GAN-based Video Generation (TecoGAN)</font></h3>
-<h4 class="h4 service-item-title"><font color="#bcc2be">Mengyu Chu, You Xie, Jonas Mayer, Laura Leal-Taixe, Nils Thuerey</font></h4>
-<p><font color="#c9ed9a">SIGGRAPH 2020</font></p>
-<div class="text-container">
-<p class="text-content">
-<font color="#bcc2be">Our work explores temporal self-supervision for GAN-based video generation tasks. While adversarial training successfully yields generative models for a variety of areas, temporal relationships in the generated data are much less explored. Natural temporal changes are crucial for sequential generation tasks, e.g. video super-resolution and unpaired video translation. For the former, state-of-the-art methods often favor simpler norm losses such as L^2 over adversarial training. However, their averaging nature easily leads to temporally smooth results with an undesirable lack of spatial detail. For unpaired video translation, existing approaches modify the generator networks to form spatio-temporal cycle consistencies. In contrast, we focus on improving learning objectives and propose a temporally self-supervised algorithm. For both tasks, we show that temporal adversarial learning is key to achieving temporally coherent solutions without sacrificing spatial detail. We also propose a novel Ping-Pong loss to improve the long-term temporal consistency. It effectively prevents recurrent networks from accumulating artifacts temporally without depressing detailed features. Additionally, we propose a first set of metrics to quantitatively evaluate the accuracy as well as the perceptual quality of the temporal evolution. A series of user studies confirm the rankings computed with these metrics.</font>
-</p>
-<button class="toggle-button">expand</button>
-</div>
-</div>
-</a>
-</div>
-</li>
-<!--
+              <a href="https://www.youtube.com/watch?v=pZXFXtfd-Ak&ab_channel=NilsThuerey" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/tecoGAN.png" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <p><a href="https://arxiv.org/pdf/1811.09393" target="_blank"><font color="#ffcc00">Paper</font></a></p>
+                    <span class="dot"></span>
+
+                    <p><a href="https://www.youtube.com/watch?v=pZXFXtfd-Ak&ab_channel=NilsThuerey" target="_blank"><font color="#ffcc00">Video</font></a></p>
+
+                    <span class="dot"></span>
+
+                    <p><a href="https://github.com/thunil/TecoGAN" target="_blank"><font color="#ffcc00">Code</font></a></p>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title"><font color="#bcc2be">Learning Temporal Coherence via Self-Supervision for GAN-based Video Generation (TecoGAN)</font></h3>
+
+                  <h4 class="h4 service-item-title"><font color="#bcc2be">Mengyu Chu, You Xie, Jonas Mayer, Laura Leal-Taixe, Nils Thuerey</font></h4>
+                  <p><font color="#c9ed9a">SIGGRAPH 2020</font></p>
+                  <div class="text-container">
+                    <p class="text-content">
+                        <font color="#bcc2be">Our work explores temporal self-supervision for GAN-based video generation tasks. While adversarial training successfully yields generative models for a variety of areas, temporal relationships in the generated data are much less explored. Natural temporal changes are crucial for sequential generation tasks, e.g. video super-resolution and unpaired video translation. For the former, state-of-the-art methods often favor simpler norm losses such as L^2 over adversarial training. However, their averaging nature easily leads to temporally smooth results with an undesirable lack of spatial detail. For unpaired video translation, existing approaches modify the generator networks to form spatio-temporal cycle consistencies. In contrast, we focus on improving learning objectives and propose a temporally self-supervised algorithm. For both tasks, we show that temporal adversarial learning is key to achieving temporally coherent solutions without sacrificing spatial detail. We also propose a novel Ping-Pong loss to improve the long-term temporal consistency. It effectively prevents recurrent networks from accumulating artifacts temporally without depressing detailed features. Additionally, we propose a first set of metrics to quantitatively evaluate the accuracy as well as the perceptual quality of the temporal evolution. A series of user studies confirm the rankings computed with these metrics.</font>
+                    </p>
+                    <button class="toggle-button">expand</button>
+                </div>
+                </div>
+              </a>
+              </div>
+            </li>
+
+            <!--
               - #multi-PassGAN
             -->
-<li class="blog-post-item">
-<div style="
+            <li class="blog-post-item">
+              <div style="
                   border: 0px solid #4CAF50;
                   border-radius: 10px;
                   padding: 15px;
                   background-color: #000000;
                   margin: 20px 0;
                   box-shadow: 0px 4px 8px rgba(112, 112, 112, 1);">
-<a href="https://www.youtube.com/watch?v=__WE22dB6AA&amp;ab_channel=NilsThuerey" target="_blank">
-<figure class="blog-banner-box">
-<img loading="lazy" src="./assets/images/multipassGAN.png"/>
-</figure>
-<div class="blog-content">
-<div class="blog-meta">
-<p><a href="https://arxiv.org/pdf/1906.01689.pdf" target="_blank"><font color="#ffcc00">Paper</font></a></p>
-<span class="dot"></span>
-<p><a href="https://www.youtube.com/watch?v=__WE22dB6AA&amp;ab_channel=NilsThuerey" target="_blank"><font color="#ffcc00">Video</font></a></p>
-<span class="dot"></span>
-<p><a href="https://github.com/maxwerhahn/Multi-pass-GAN" target="_blank"><font color="#ffcc00">Code</font></a></p>
-</div>
-<h3 class="h3 blog-item-title"><font color="#bcc2be">A Multi-Pass GAN for Fluid Flow Super-Resolution</font></h3>
-<h4 class="h4 service-item-title"><font color="#bcc2be">Maximilian Werhahn, You Xie, Mengyu Chu, Nils Thuerey</font></h4>
-<p><font color="#c9ed9a">SCA 2019</font></p>
-<div class="text-container">
-<p class="text-content">
-<font color="#bcc2be">We propose a novel method to up-sample volumetric functions with generative neural networks using several orthogonal passes. Our method decomposes generative problems on Cartesian field functions into multiple smaller sub-problems that can be learned more efficiently. Specifically, we utilize two separate generative adversarial networks: the first one up-scales slices which are parallel to the XY- plane, whereas the second one refines the whole volume along the Z- axis working on slices in the YZ- plane. In this way, we obtain full coverage for the 3D target function and can leverage spatio-temporal supervision with a set of discriminators. Additionally, we demonstrate that our method can be combined with curriculum learning and progressive growing approaches. We arrive at a first method that can up-sample volumes by a factor of eight along each dimension, i.e., increasing the number of degrees of freedom by 512. Large volumetric up-scaling factors such as this one have previously not been attainable as the required number of weights in the neural networks renders adversarial training runs prohibitively difficult. We demonstrate the generality of our trained networks with a series of comparisons to previous work, a variety of complex 3D results, and an analysis of the resulting performance.</font>
-</p>
-<button class="toggle-button">expand</button>
-</div>
-</div>
-</a>
-</div>
-</li>
-<!--
+              <a href="https://www.youtube.com/watch?v=__WE22dB6AA&ab_channel=NilsThuerey" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/multipassGAN.png" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <p><a href="https://arxiv.org/pdf/1906.01689.pdf" target="_blank"><font color="#ffcc00">Paper</font></a></p>
+                    <span class="dot"></span>
+
+                    <p><a href="https://www.youtube.com/watch?v=__WE22dB6AA&ab_channel=NilsThuerey" target="_blank"><font color="#ffcc00">Video</font></a></p>
+
+                    <span class="dot"></span>
+
+                    <p><a href="https://github.com/maxwerhahn/Multi-pass-GAN" target="_blank"><font color="#ffcc00">Code</font></a></p>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title"><font color="#bcc2be">A Multi-Pass GAN for Fluid Flow Super-Resolution</font></h3>
+
+                  <h4 class="h4 service-item-title"><font color="#bcc2be">Maximilian Werhahn, You Xie, Mengyu Chu, Nils Thuerey</font></h4>
+                  <p><font color="#c9ed9a">SCA 2019</font></p>
+                  <div class="text-container">
+                    <p class="text-content">
+                        <font color="#bcc2be">We propose a novel method to up-sample volumetric functions with generative neural networks using several orthogonal passes. Our method decomposes generative problems on Cartesian field functions into multiple smaller sub-problems that can be learned more efficiently. Specifically, we utilize two separate generative adversarial networks: the first one up-scales slices which are parallel to the XY- plane, whereas the second one refines the whole volume along the Z- axis working on slices in the YZ- plane. In this way, we obtain full coverage for the 3D target function and can leverage spatio-temporal supervision with a set of discriminators. Additionally, we demonstrate that our method can be combined with curriculum learning and progressive growing approaches. We arrive at a first method that can up-sample volumes by a factor of eight along each dimension, i.e., increasing the number of degrees of freedom by 512. Large volumetric up-scaling factors such as this one have previously not been attainable as the required number of weights in the neural networks renders adversarial training runs prohibitively difficult. We demonstrate the generality of our trained networks with a series of comparisons to previous work, a variety of complex 3D results, and an analysis of the resulting performance.</font>
+                    </p>
+                    <button class="toggle-button">expand</button>
+                </div>
+                </div>
+              </a>
+              </div>
+            </li>
+            <!--
               - #tempoGAN
             -->
-<li class="blog-post-item">
-<div style="
+            <li class="blog-post-item">
+              <div style="
                   border: 0px solid #4CAF50;
                   border-radius: 10px;
                   padding: 15px;
                   background-color: #000000;
                   margin: 20px 0;
                   box-shadow: 0px 4px 8px rgba(112, 112, 112, 1);">
-<a href="https://www.youtube.com/watch?v=i6JwXYypZ3Y&amp;ab_channel=NilsThuerey" target="_blank">
-<figure class="blog-banner-box">
-<img loading="lazy" src="./assets/images/tempoGAN.png"/>
-</figure>
-<div class="blog-content">
-<div class="blog-meta">
-<p><a href="https://arxiv.org/pdf/1801.09710" target="_blank"><font color="#ffcc00">Paper</font></a></p>
-<span class="dot"></span>
-<p><a href="https://www.youtube.com/watch?v=i6JwXYypZ3Y&amp;ab_channel=NilsThuerey" target="_blank"><font color="#ffcc00">Video</font></a></p>
-<span class="dot"></span>
-<p><a href="https://github.com/thunil/tempoGAN" target="_blank"><font color="#ffcc00">Code</font></a></p>
-</div>
-<h3 class="h3 blog-item-title"><font color="#bcc2be">tempoGAN: A Temporally Coherent, Volumetric GAN for Super-resolution Fluid Flow</font></h3>
-<h4 class="h4 service-item-title"><font color="#bcc2be">You Xie, Erik Franz, Mengyu Chu, Nils Thuerey</font></h4>
-<p><font color="#c9ed9a">SIGGRAPH 2018</font></p>
-<div class="text-container">
-<p class="text-content">
-<font color="#bcc2be">We propose a temporally coherent generative model addressing the superresolution problem for fluid flows. Our work represents a first approach to synthesize four-dimensional physics fields with neural networks. Based on a conditional generative adversarial network that is designed for the inference of three-dimensional volumetric data, our model generates consistent and detailed results by using a novel temporal discriminator, in addition to the commonly used spatial one. Our experiments show that the generator is able to infer more realistic high-resolution details by using additional physical quantities, such as low-resolution velocities or vorticities. Besides improvements in the training process and in the generated outputs, these inputs offer means for artistic control as well. We additionally employ a physics-aware data augmentation step, which is crucial to avoid overfitting and to reduce memory requirements. In this way, our network learns to generate advected quantities with highly detailed, realistic, and temporally coherent features. Our method works instantaneously, using only a single time-step of low-resolution fluid data. We demonstrate the abilities of our method using a variety of complex inputs and applications in two and three dimensions.</font>
-</p>
-<button class="toggle-button">expand</button>
-</div>
-</div>
-</a>
-</div>
-</li>
-<!--
+              <a href="https://www.youtube.com/watch?v=i6JwXYypZ3Y&ab_channel=NilsThuerey" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/tempoGAN.png" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <p><a href="https://arxiv.org/pdf/1801.09710" target="_blank"><font color="#ffcc00">Paper</font></a></p>
+                    <span class="dot"></span>
+
+                    <p><a href="https://www.youtube.com/watch?v=i6JwXYypZ3Y&ab_channel=NilsThuerey" target="_blank"><font color="#ffcc00">Video</font></a></p>
+
+                    <span class="dot"></span>
+
+                    <p><a href="https://github.com/thunil/tempoGAN" target="_blank"><font color="#ffcc00">Code</font></a></p>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title"><font color="#bcc2be">tempoGAN: A Temporally Coherent, Volumetric GAN for Super-resolution Fluid Flow</font></h3>
+
+                  <h4 class="h4 service-item-title"><font color="#bcc2be">You Xie, Erik Franz, Mengyu Chu, Nils Thuerey</font></h4>
+                  <p><font color="#c9ed9a">SIGGRAPH 2018</font></p>
+                  <div class="text-container">
+                    <p class="text-content">
+                        <font color="#bcc2be">We propose a temporally coherent generative model addressing the superresolution problem for fluid flows. Our work represents a first approach to synthesize four-dimensional physics fields with neural networks. Based on a conditional generative adversarial network that is designed for the inference of three-dimensional volumetric data, our model generates consistent and detailed results by using a novel temporal discriminator, in addition to the commonly used spatial one. Our experiments show that the generator is able to infer more realistic high-resolution details by using additional physical quantities, such as low-resolution velocities or vorticities. Besides improvements in the training process and in the generated outputs, these inputs offer means for artistic control as well. We additionally employ a physics-aware data augmentation step, which is crucial to avoid overfitting and to reduce memory requirements. In this way, our network learns to generate advected quantities with highly detailed, realistic, and temporally coherent features. Our method works instantaneously, using only a single time-step of low-resolution fluid data. We demonstrate the abilities of our method using a variety of complex inputs and applications in two and three dimensions.</font>
+                    </p>
+                    <button class="toggle-button">expand</button>
+                </div>
+                </div>
+              </a>
+              </div>
+            </li>
+            <!--
               - #racecar
             -->
-<li class="blog-post-item">
-<div style="
+            <li class="blog-post-item">
+              <div style="
                   border: 0px solid #4CAF50;
                   border-radius: 10px;
                   padding: 15px;
                   background-color: #000000;
                   margin: 20px 0;
                   box-shadow: 0px 4px 8px rgba(112, 112, 112, 1);">
-<figure class="blog-banner-box">
-<img loading="lazy" src="./assets/images/racecar.png"/>
-</figure>
-<div class="blog-content">
-<div class="blog-meta">
-<p><a href="https://link.springer.com/article/10.1007/s00521-022-07892-0" target="_blank"><font color="#ffcc00">Paper</font></a></p>
-<span class="dot"></span>
-<p><a href="https://github.com/tum-pbs/racecar" target="_blank"><font color="#ffcc00">Code</font></a></p>
-</div>
-<h3 class="h3 blog-item-title"><font color="#bcc2be">Reviving Autoencoder Pretraining</font></h3>
-<h4 class="h4 service-item-title"><font color="#bcc2be">You Xie, Nils Thuerey</font></h4>
-<p><font color="#c9ed9a">Neural Computing and Applications Journal</font></p>
-<div class="text-container">
-<p class="text-content">
-<font color="#bcc2be">The pressing need for pretraining algorithms has been diminished by numerous advances in terms of regularization, architectures, and optimizers. Despite this trend, we re-visit the classic idea of unsupervised autoencoder pretraining and propose a modified variant that relies on a full reverse pass trained in conjunction with a given training task. This yields networks that are {\em as-invertible-as-possible}, and share mutual information across all constrained layers. We additionally establish links between singular value decomposition and pretraining and show how it can be leveraged for gaining insights about the learned structures. Most importantly, we demonstrate that our approach yields an improved performance for a wide variety of relevant learning and transfer tasks ranging from fully connected networks over residual neural networks to generative adversarial networks. Our results demonstrate that unsupervised pretraining has not lost its practical relevance in today’s deep learning environment.</font>
-</p>
-<button class="toggle-button">expand</button>
-</div>
-</div>
-</div>
-</li>
-<!--
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/racecar.png" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <p><a href="https://link.springer.com/article/10.1007/s00521-022-07892-0" target="_blank"><font color="#ffcc00">Paper</font></a></p>
+                    <span class="dot"></span>
+
+                    <p><a href="https://github.com/tum-pbs/racecar" target="_blank"><font color="#ffcc00">Code</font></a></p>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title"><font color="#bcc2be">Reviving Autoencoder Pretraining</font></h3>
+
+                  <h4 class="h4 service-item-title"><font color="#bcc2be">You Xie, Nils Thuerey</font></h4>
+                  <p><font color="#c9ed9a">Neural Computing and Applications Journal</font></p>
+                  <div class="text-container">
+                    <p class="text-content">
+                        <font color="#bcc2be">The pressing need for pretraining algorithms has been diminished by numerous advances in terms of regularization, architectures, and optimizers. Despite this trend, we re-visit the classic idea of unsupervised autoencoder pretraining and propose a modified variant that relies on a full reverse pass trained in conjunction with a given training task. This yields networks that are {\em as-invertible-as-possible}, and share mutual information across all constrained layers. We additionally establish links between singular value decomposition and pretraining and show how it can be leveraged for gaining insights about the learned structures. Most importantly, we demonstrate that our approach yields an improved performance for a wide variety of relevant learning and transfer tasks ranging from fully connected networks over residual neural networks to generative adversarial networks. Our results demonstrate that unsupervised pretraining has not lost its practical relevance in today’s deep learning environment.</font>
+                    </p>
+                    <button class="toggle-button">expand</button>
+                </div>
+                </div>
+              </div>
+            </li>
+            <!--
               - #temporalUV
             -->
-<li class="blog-post-item">
-<div style="
+            <li class="blog-post-item">
+              <div style="
                   border: 0px solid #4CAF50;
                   border-radius: 10px;
                   padding: 15px;
                   background-color: #000000;
                   margin: 20px 0;
                   box-shadow: 0px 4px 8px rgba(112, 112, 112, 1);">
-<a href="https://www.youtube.com/watch?v=mDjzzMDy9Ko&amp;ab_channel=YouXie" target="_blank">
-<figure class="blog-banner-box">
-<img loading="lazy" src="./assets/images/temporalUV.png"/>
-</figure>
-<div class="blog-content">
-<div class="blog-meta">
-<p><a href="https://arxiv.org/pdf/2204.03671" target="_blank"><font color="#ffcc00">Paper</font></a></p>
-<span class="dot"></span>
-<p><a href="https://www.youtube.com/watch?v=mDjzzMDy9Ko&amp;ab_channel=YouXie" target="_blank"><font color="#ffcc00">Video</font></a></p>
-<span class="dot"></span>
-<p><a href="https://github.com/youxie/TemporalUV" target="_blank"><font color="#ffcc00">Code</font></a></p>
-</div>
-<h3 class="h3 blog-item-title"><font color="#bcc2be">TemporalUV: Capturing Loose Clothing with Temporally Coherent UV Coordinates</font></h3>
-<h4 class="h4 service-item-title"><font color="#bcc2be">You Xie, Huiqi Mao, Angela Yao, Nils Thuerey</font></h4>
-<p><font color="#c9ed9a">CVPR 2022</font></p>
-<div class="text-container">
-<p class="text-content">
-<font color="#bcc2be">We propose a novel approach to generate temporally coherent UV coordinates for loose clothing. Our method is not constrained by human body outlines and can capture loose garments and hair. We implemented a differentiable pipeline to learn UV mapping between a sequence of RGB inputs and textures via UV coordinates. Instead of treating the UV coordinates of each frame separately, our data generation approach connects all UV coordinates via feature matching for temporal stability. Subsequently, a generative model is trained to balance the spatial quality and temporal stability. It is driven by supervised and unsupervised losses in both UV and image spaces. Our experiments show that the trained models output high-quality UV coordinates and generalize to new poses. Once a sequence of UV coordinates has been inferred by our model, it can be used to flexibly synthesize new looks and modified visual styles. Compared to existing methods, our approach reduces the computational workload to animate new outfits by several orders of magnitude.</font>
-</p>
-<button class="toggle-button">expand</button>
-</div>
-</div>
-</a>
-</div>
-</li>
-<!--
+              <a href="https://www.youtube.com/watch?v=mDjzzMDy9Ko&ab_channel=YouXie" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/temporalUV.png" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <p><a href="https://arxiv.org/pdf/2204.03671" target="_blank"><font color="#ffcc00">Paper</font></a></p>
+                    <span class="dot"></span>
+
+                    <p><a href="https://www.youtube.com/watch?v=mDjzzMDy9Ko&ab_channel=YouXie" target="_blank"><font color="#ffcc00">Video</font></a></p>
+
+                    <span class="dot"></span>
+
+                    <p><a href="https://github.com/youxie/TemporalUV" target="_blank"><font color="#ffcc00">Code</font></a></p>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title"><font color="#bcc2be">TemporalUV: Capturing Loose Clothing with Temporally Coherent UV Coordinates</font></h3>
+
+                  <h4 class="h4 service-item-title"><font color="#bcc2be">You Xie, Huiqi Mao, Angela Yao, Nils Thuerey</font></h4>
+                  <p><font color="#c9ed9a">CVPR 2022</font></p>
+                  <div class="text-container">
+                    <p class="text-content">
+                        <font color="#bcc2be">We propose a novel approach to generate temporally coherent UV coordinates for loose clothing. Our method is not constrained by human body outlines and can capture loose garments and hair. We implemented a differentiable pipeline to learn UV mapping between a sequence of RGB inputs and textures via UV coordinates. Instead of treating the UV coordinates of each frame separately, our data generation approach connects all UV coordinates via feature matching for temporal stability. Subsequently, a generative model is trained to balance the spatial quality and temporal stability. It is driven by supervised and unsupervised losses in both UV and image spaces. Our experiments show that the trained models output high-quality UV coordinates and generalize to new poses. Once a sequence of UV coordinates has been inferred by our model, it can be used to flexibly synthesize new looks and modified visual styles. Compared to existing methods, our approach reduces the computational workload to animate new outfits by several orders of magnitude.</font>
+                    </p>
+                    <button class="toggle-button">expand</button>
+                </div>
+                </div>
+              </a>
+              </div>
+            </li>
+            <!--
               - #hand reconstruction
             -->
-<li class="blog-post-item">
-<div style="
+            <li class="blog-post-item">
+              <div style="
                   border: 0px solid #4CAF50;
                   border-radius: 10px;
                   padding: 15px;
                   background-color: #000000;
                   margin: 20px 0;
                   box-shadow: 0px 4px 8px rgba(112, 112, 112, 1);">
-<a href="https://arxiv.org/pdf/2211.13429" target="_blank">
-<figure class="blog-banner-box">
-<img loading="lazy" src="./assets/images/hand_recon.png"/>
-</figure>
-<div class="blog-content">
-<div class="blog-meta">
-<p><a href="https://arxiv.org/pdf/2211.13429" target="_blank"><font color="#ffcc00">Paper</font></a></p>
-</div>
-<h3 class="h3 blog-item-title"><font color="#bcc2be">UV-Based 3D Hand-Object Reconstruction with Grasp Optimization</font></h3>
-<h4 class="h4 service-item-title"><font color="#bcc2be">Ziwei Yu, Linlin Yang, You Xie, Ping Chen, Angela Yao</font></h4>
-<p><font color="#c9ed9a">BMVC 2022 (Spotlight)</font></p>
-<div class="text-container">
-<p class="text-content">
-<font color="#bcc2be">We propose a novel framework for 3D hand shape reconstruction and hand-object grasp optimization from a single RGB image. The representation of hand-object contact regions is critical for accurate reconstructions. Instead of approximating the contact regions with sparse points, as in previous works, we propose a dense representation in the form of a UV coordinate map. Furthermore, we introduce inference-time optimization to fine-tune the grasp and improve interactions between the hand and the object. Our pipeline increases hand shape reconstruction accuracy and produces a vibrant hand texture. Experiments on datasets such as Ho3D, FreiHAND, and DexYCB reveal that our proposed method outperforms the state-of-the-art.</font>
-</p>
-<button class="toggle-button">expand</button>
-</div>
-</div>
-</a>
-</div>
-</li>
-</ul>
-</section>
-<section class="projects">
-<div class="filter-select-box">
-<button class="filter-select" data-select="">
-<!-- <div class="select-value" data-selecct-value>Select category</div> -->
-<!-- <div class="select-icon">
+              <a href="https://arxiv.org/pdf/2211.13429" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/hand_recon.png" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <p><a href="https://arxiv.org/pdf/2211.13429" target="_blank"><font color="#ffcc00">Paper</font></a></p>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title"><font color="#bcc2be">UV-Based 3D Hand-Object Reconstruction with Grasp Optimization</font></h3>
+
+                  <h4 class="h4 service-item-title"><font color="#bcc2be">Ziwei Yu, Linlin Yang, You Xie, Ping Chen, Angela Yao</font></h4>
+                  <p><font color="#c9ed9a">BMVC 2022 (Spotlight)</font></p>
+                  <div class="text-container">
+                    <p class="text-content">
+                        <font color="#bcc2be">We propose a novel framework for 3D hand shape reconstruction and hand-object grasp optimization from a single RGB image. The representation of hand-object contact regions is critical for accurate reconstructions. Instead of approximating the contact regions with sparse points, as in previous works, we propose a dense representation in the form of a UV coordinate map. Furthermore, we introduce inference-time optimization to fine-tune the grasp and improve interactions between the hand and the object. Our pipeline increases hand shape reconstruction accuracy and produces a vibrant hand texture. Experiments on datasets such as Ho3D, FreiHAND, and DexYCB reveal that our proposed method outperforms the state-of-the-art.</font>
+                    </p>
+                    <button class="toggle-button">expand</button>
+                </div>
+                </div>
+              </a>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+
+        <section class="projects">
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <!-- <div class="select-value" data-selecct-value>Select category</div> -->
+
+              <!-- <div class="select-icon">
                 <ion-icon name="chevron-down"></ion-icon>
               </div> -->
-</button>
-</div>
-</section>
-</article>
-</div>
-</main>
-<!--
+
+            </button>
+
+          </div>
+
+        </section>
+
+      </article>
+
+
+    </div>
+
+  </main>
+
+
+
+  <!--
     - custom js link
   -->
-<script src="./assets/js/script.js"></script>
-<!--
+  <script src="./assets/js/script.js"></script>
+
+  <!--
     - ionicon link
   -->
-<script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" type="module"></script>
-<script nomodule="" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<script>
-  const canvas = document.getElementById('littleManCanvas');
-  const ctx = canvas.getContext('2d');
-  const startBtn = document.getElementById('startBtn');
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-  const manImg = new Image();
-  const obstacleImg = new Image();
-  manImg.src = 'assets/images/little_man.png';
-  obstacleImg.src = 'assets/images/obstacle.png';
-
-  let man = { x: 50, y: 170, width: 20, height: 40, vy: 0, gravity: 0.8, jumpPower: -12, grounded: true };
-  let obstacle = { x: 400, y: 180, width: 30, height: 30, speed: 2.5 };
-  let score = 0;
-  let gameStarted = false;
-  let gameOver = false;
-
-  function resetGame() {
-    man.y = 170;
-    man.vy = 0;
-    man.grounded = true;
-    obstacle.x = 400;
-    score = 0;
-    gameOver = false;
-    gameStarted = true;
-  }
-
-  startBtn.addEventListener('click', () => {
-    if (!gameStarted) {
-      resetGame();
-    }
-    if (man.grounded) {
-      man.vy = man.jumpPower;
-      man.grounded = false;
-    }
-  });
-
-  function drawScene() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-    // Draw ground
-    ctx.fillStyle = "#666";
-    ctx.fillRect(0, 210, canvas.width, 10);
-
-    // Draw man and obstacle
-    ctx.drawImage(manImg, man.x, man.y, man.width, man.height);
-    ctx.drawImage(obstacleImg, obstacle.x, obstacle.y, obstacle.width, obstacle.height);
-  }
-
-  function animate() {
-    if (!gameStarted || gameOver) {
-      drawScene();
-      requestAnimationFrame(animate);
-      return;
-    }
-
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-    man.vy += man.gravity;
-    man.y += man.vy;
-    if (man.y >= 170) {
-      man.y = 170;
-      man.vy = 0;
-      man.grounded = true;
-    }
-
-    obstacle.x -= obstacle.speed;
-    if (obstacle.x < -30) {
-      obstacle.x = 400 + Math.random() * 150;
-      score++;
-    }
-
-    ctx.fillStyle = "#666";
-    ctx.fillRect(0, 210, canvas.width, 10);
-    ctx.drawImage(manImg, man.x, man.y, man.width, man.height);
-    ctx.drawImage(obstacleImg, obstacle.x, obstacle.y, obstacle.width, obstacle.height);
-
-    if (
-      man.x < obstacle.x + obstacle.width &&
-      man.x + man.width > obstacle.x &&
-      man.y < obstacle.y + obstacle.height &&
-      man.y + man.height > obstacle.y
-    ) {
-      gameOver = true;
-      gameStarted = false;
-      alert("Game Over! Your Score: " + score);
-    }
-
-    requestAnimationFrame(animate);
-  }
-
-  animate();
-</script>
 </body>
+
 </html>
