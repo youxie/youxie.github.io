@@ -24,6 +24,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" rel="stylesheet">
+
+  <!-- Leaflet & Heatmap.js -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/heatmapjs@2.0.5/heatmap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/leaflet-heatmap/leaflet-heatmap.js"></script>
+
 </head>
 
 <body>
@@ -1139,6 +1146,59 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+    <!-- Visitor Heatmap -->
+    <section class="visitor-map" style="margin: 40px auto; max-width: 1200px;">
+      <h3 class="h3" style="text-align: center;">Visitor Heatmap</h3>
+      <div id="visitor-map" style="height: 300px; border-radius: 8px;"></div>
+    </section>
+
+
+  <script>
+    async function getVisitorLocation() {
+      try {
+        const res = await fetch('https://ipwho.is/');
+        const data = await res.json();
+        if (data.success) {
+          return { lat: data.latitude, lng: data.longitude };
+        }
+      } catch (e) {
+        console.error('Failed to get visitor IP location:', e);
+      }
+      return null;
+    }
+
+    async function initMap() {
+      const map = L.map('visitor-map').setView([20, 0], 2);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors'
+      }).addTo(map);
+
+      const heatLayer = new HeatmapOverlay({
+        radius: 25,
+        maxOpacity: 0.8,
+        scaleRadius: true,
+        useLocalExtrema: false,
+        latField: 'lat',
+        lngField: 'lng',
+        valueField: 'count'
+      }).addTo(map);
+
+      let stored = localStorage.getItem('visitor_heatmap') || '[]';
+      let points = JSON.parse(stored);
+
+      const loc = await getVisitorLocation();
+      if (loc) {
+        points.push({ lat: loc.lat, lng: loc.lng, count: 1 });
+        localStorage.setItem('visitor_heatmap', JSON.stringify(points));
+      }
+
+      heatLayer.setData({ max: 5, data: points });
+    }
+
+    window.addEventListener('DOMContentLoaded', initMap);
+  </script>
 
 </body>
 
